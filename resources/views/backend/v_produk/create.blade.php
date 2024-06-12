@@ -7,7 +7,7 @@
         <h4 class="box-title">{{ $judul }}</h4>
         <!-- /.box-title -->
         <div class="card-content">
-            <form action="/produk" method="post">
+            <form action="/produk" method="post" enctype="multipart/form-data">
                 @csrf
                 <div class="col-md-4">
                     {{-- div left --}}
